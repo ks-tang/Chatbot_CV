@@ -1,0 +1,36 @@
+name: CI - Chatbot CV
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v3
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.13.2
+
+      - name: 🐳 Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: 🔍 Lint Dockerfile
+        uses: hadolint/hadolint-action@v3.1.0
+        with:
+          dockerfile: ./Dockerfile
+
+      - name: 🧪 Build and test Docker container
+        run: |
+          docker build -t chatbot-cv .
+          docker run --rm -p 8000:8000 chatbot-cv python -c "print('✅ Container test successful')"
+
+      - name: ✅ Success message
+        run: echo "🎉 Build & container check finished with success!"
