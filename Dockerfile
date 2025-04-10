@@ -11,7 +11,7 @@ COPY ./scripts ./scripts
 COPY requirements.txt .
 
 # Installer les dépendances
-RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir --upgrade pip && pip install --no-cache-dir -r requirements.txt
 
 # Exposer le port
 EXPOSE 8000
