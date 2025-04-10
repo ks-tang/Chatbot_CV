@@ -1,0 +1,103 @@
+question,keyword
+Peux-tu te présenter ?,presentation
+Comment tu te décrirais ?,presentation
+Qui es-tu ?,presentation
+Parle-moi de toi,presentation
+Tu peux te présenter ?,presentation
+Quel est ton profil ?,presentation
+Dis-m'en plus sur toi,presentation
+Fais une présentation rapide,presentation
+C’est quoi ton parcours en bref ?,presentation
+Tu fais quoi dans la vie ?,presentation
+Quel est ton parcours ?,formation
+Quelle est ta formation ?,formation
+Tu as fait quelles études ?,formation
+Quel diplôme as-tu ?,formation
+Quel est ton background académique ?,formation
+Parle-moi de ton cursus,formation
+Tu viens de quelle école ?,formation
+Qu’as-tu étudié ?,formation
+Tu as étudié quoi ?,formation
+Raconte ton parcours scolaire,formation
+Quels projets as-tu réalisés ?,projets
+Tu as travaillé sur quoi ?,projets
+Parle-moi d’un de tes projets,projets
+Tu as déjà fait quels projets ?,projets
+Quels sont tes projets préférés ?,projets
+Tu as développé quoi ?,projets
+Qu’est-ce que tu as construit ?,projets
+As-tu fait des projets concrets ?,projets
+Donne un exemple de projet réalisé,projets
+Tu peux me parler d’un projet technique ?,projets
+Quelle est ta stack technique ?,skills
+Tu maîtrises quels outils ?,skills
+Tu codes en quoi ?,skills
+Tu connais quelles technologies ?,skills
+Quelle est ta stack ?,skills
+Tu utilises quels langages ?,skills
+Quels sont tes outils préférés ?,skills
+Quelles compétences techniques as-tu ?,skills
+Tu travailles avec quels frameworks ?,skills
+Tu as l’habitude d’utiliser quoi ?,skills
+Quel type de poste recherches-tu ?,poste
+Tu cherches quel emploi ?,poste
+Tu vises quel métier ?,poste
+Tu es à la recherche de quel type de poste ?,poste
+Tu veux faire quoi ?,poste
+Tu recherches quel rôle ?,poste
+Quel job veux-tu ?,poste
+Tu veux bosser dans quoi ?,poste
+Dans quel domaine veux-tu travailler ?,poste
+Tu souhaites postuler à quoi ?,poste
+Quel type de poste recherches-tu ?,poste
+Tu cherches quel emploi ?,poste
+Tu vises quel métier ?,poste
+Tu es à la recherche de quel type de poste ?,poste
+Tu veux faire quoi ?,poste
+Tu recherches quel rôle ?,poste
+Quel job veux-tu ?,poste
+Tu veux bosser dans quoi ?,poste
+Dans quel domaine veux-tu travailler ?,poste
+Tu souhaites postuler à quoi ?,poste
+Où es-tu basé ?,lieu
+Tu habites où ?,lieu
+Tu vis dans quelle ville ?,lieu
+T’es localisé où ?,lieu
+Tu es mobile ?,lieu
+Où peux-tu travailler ?,lieu
+T’as des préférences géographiques ?,lieu
+Tu peux bosser où ?,lieu
+T’es basé dans quelle région ?,lieu
+Où tu vis actuellement ?,lieu
+Parles-tu anglais ?,langue
+Quel est ton niveau d’anglais ?,langue
+Tu es à l’aise en anglais ?,langue
+Tu comprends l’anglais ?,langue
+Tu sais parler anglais ?,langue
+Ton anglais est bon ?,langue
+Tu écris bien en anglais ?,langue
+T’as déjà bossé en anglais ?,langue
+Quel est ton score au TOEIC ?,langue
+Ton niveau Linguaskill ?,langue
+Quelles langues parles-tu?,langue
+Dans quelles langues es-tu à l'aise?,langue
+Peux-tu travailler en équipe ?,équipe
+Tu sais bosser en équipe ?,équipe
+Tu préfères le travail en solo ou en groupe ?,équipe
+Tu collabores facilement ?,équipe
+Tu as déjà bossé en équipe ?,équipe
+T’as l’habitude de collaborer ?,équipe
+Tu es bon en communication ?,équipe
+Tu as l’esprit d’équipe ?,équipe
+Tu es à l’aise en collectif ?,équipe
+Tu as déjà utilisé Git en équipe ?,équipe
+Pourquoi t'intéresses-tu à la data ?,motivation
+Pourquoi as-tu choisi la data ?,motivation
+Qu’est-ce qui te motive dans ce domaine ?,motivation
+Pourquoi la data science ?,motivation
+Qu’est-ce que tu aimes dans la data ?,motivation
+Pourquoi cette passion pour les données ?,motivation
+D’où vient ton intérêt pour la data ?,motivation
+Pourquoi ce choix de carrière ?,motivation
+Tu veux faire quoi avec la data ?,motivation
+Qu’est-ce qui t’attire dans ce secteur ?,motivation

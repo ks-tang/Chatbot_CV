@@ -1,0 +1,33 @@
+# Environnement Virtuel (venv, conda)
+venv/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+
+# Fichiers de configuration et logs
+*.log
+*.sqlite3
+instance/
+.env
+config.json
+
+# Dépendances (si installées localement)
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Jupyter Notebooks et caches
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Docker & Conteneurs
+.dockerignore
+
+# Fichiers spécifiques aux IDE et OS
+.vscode/
+*.code-workspace
+
+.devcontainer/
