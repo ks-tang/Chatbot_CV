@@ -29,8 +29,8 @@ jobs:
 
       - name: 🧪 Build and test Docker container
         run: |
-          docker build -t chatbot-cv .
-          docker run --rm -p 8000:8000 chatbot-cv python -c "print('✅ Container test successful')"
+          docker build -t chatbot-image .
+          docker run --name chatbot-container --rm -p 8000:8000 chatbot-image python -c "print('✅ Container test successful')"
 
       - name: ✅ Success message
         run: echo "🎉 Build & container check finished with success!"
