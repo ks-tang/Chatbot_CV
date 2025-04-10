@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: chatbot-cv
+    env: docker
+    plan: free
+    region: frankfurt
+    dockerContext: .
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    buildCommand: ""
+    startCommand: "uvicorn app.main:app --host 0.0.0.0 --port 8000"
+    healthCheckPath: /
