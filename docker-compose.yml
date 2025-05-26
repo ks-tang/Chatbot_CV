@@ -1,12 +1,26 @@
-version: "3.13.2"
-
+version: "3.9"
 services:
-  chatbot:
-    build: .
+  chatbot_v1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /app/Chatbot_CV_v1/app
+    command: uvicorn main:app --host 0.0.0.0 --port 8001
+    volumes:
+      - .:/app
     ports:
-      - "8000:8000"
-    environment:
-      - PORT=8000
-    restart: always
+      - "8001:8001"
+  
+  chatbot_v2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /app/Chatbot_CV_v2/app
+    command: uvicorn main:app --host 0.0.0.0 --port 8002
+    volumes:
+      - .:/app
+    ports:
+      - "8002:8002"
+
 
 # docker-compose up --build

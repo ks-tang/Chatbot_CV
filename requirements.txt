@@ -10,3 +10,4 @@ ollama
 faiss-cpu
 transformers
 sentence-transformers
+langchain-community

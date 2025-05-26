@@ -5,11 +5,13 @@ from fastapi.templating import Jinja2Templates
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+import os
 
 app = FastAPI()
 
 # Monte les fichiers HTML et CSS
-app.mount("/static", StaticFiles(directory="static"), name="static")
+static_path = os.path.join(os.path.dirname(__file__), "static")
+app.mount("/static", StaticFiles(directory=static_path), name="static")
 templates = Jinja2Templates(directory="templates")
 
 # Charge les questions et réponses
