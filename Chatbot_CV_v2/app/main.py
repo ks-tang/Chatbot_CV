@@ -15,11 +15,13 @@ app = FastAPI()
 base_dir = os.path.dirname(__file__)
 #static_dir = os.path.join(base_dir, "static")
 templates_dir = os.path.join(base_dir, "templates")
-static_path_v2 = os.path.join(os.path.dirname(__file__), "Chatbot_CV_v2", "app", "static")
+static_path_v2 = os.path.join(os.path.dirname(__file__), "static")
+
 
 # Monter les fichiers statiques de la version 2
 #app.mount("/static", StaticFiles(directory=static_dir), name="static")
 app.mount("/static_v2", StaticFiles(directory=static_path_v2), name="static_v2")
+
 
 # Définir le dossier des templates
 templates = Jinja2Templates(directory=templates_dir)
