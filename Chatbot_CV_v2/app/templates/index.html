@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Chatbot CV V2</title>
-    <link rel="stylesheet" href="/v2/static/style.css">
+    <link rel="stylesheet" href="{{ request.scope.root_path }}/static/style.css">
 </head>
 <body>
     <h1>Chatbot CV - Version 2</h1>
 
-    <form method="post">
+    <form method="post" action="{{ request.scope.root_path }}/ask">
         <input type="text" name="question" placeholder="Posez votre question" required>
         <button type="submit">Envoyer</button>
     </form>
