@@ -15,8 +15,12 @@ app.mount("/static", StaticFiles(directory=static_path), name="static")
 templates = Jinja2Templates(directory="templates")
 
 # Charge les questions et réponses
-questions_df = pd.read_csv("../data/questions.csv")
-reponses_df = pd.read_csv("../data/reponses.csv")
+base_dir = os.path.dirname(os.path.dirname(__file__))  # remonte à Chatbot_CV_v1
+questions_path = os.path.join(base_dir, "data", "questions.csv")
+reponses_path = os.path.join(base_dir, "data", "reponses.csv")
+
+questions_df = pd.read_csv(questions_path)
+reponses_df = pd.read_csv(reponses_path)
 reponses_dict = dict(zip(reponses_df["keyword"], reponses_df["answer"]))
 
 vectorizer = TfidfVectorizer()
