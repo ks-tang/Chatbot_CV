@@ -9,12 +9,12 @@ from sklearn.metrics.pairwise import cosine_similarity
 app = FastAPI()
 
 # Monte les fichiers HTML et CSS
-app.mount("/static", StaticFiles(directory="app/static"), name="static")
-templates = Jinja2Templates(directory="app/templates")
+app.mount("/static", StaticFiles(directory="static"), name="static")
+templates = Jinja2Templates(directory="templates")
 
 # Charge les questions et réponses
-questions_df = pd.read_csv("data/questions.csv")
-reponses_df = pd.read_csv("data/reponses.csv")
+questions_df = pd.read_csv("../data/questions.csv")
+reponses_df = pd.read_csv("../data/reponses.csv")
 reponses_dict = dict(zip(reponses_df["keyword"], reponses_df["answer"]))
 
 vectorizer = TfidfVectorizer()
