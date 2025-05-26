@@ -1,0 +1,95 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6fa;
+  padding: 40px;
+  color: #333;
+}
+
+.chat-container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  border-radius: 16px;
+  padding: 30px 25px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+.chat-box {
+  margin-top: 20px;
+  background-color: #f0f4fa;
+  padding: 15px;
+  border-radius: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #0077ff;
+  box-shadow: 0 0 4px rgba(0, 119, 255, 0.3);
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fd1;
+}
+
+.social-links {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.social-links a {
+  margin: 0 10px;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.social-links img {
+  width: 32px;
+  height: 32px;
+  filter: grayscale(100%);
+  opacity: 0.8;
+}
+
+.social-links a:hover img {
+  transform: scale(1.1);
+  filter: none;
+  opacity: 1;
+}

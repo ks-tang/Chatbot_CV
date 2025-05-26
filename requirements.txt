@@ -4,3 +4,9 @@ scikit-learn
 pandas
 jinja2
 python-multipart
+PyMuPDF
+langchain
+ollama
+faiss-cpu
+transformers
+sentence-transformers

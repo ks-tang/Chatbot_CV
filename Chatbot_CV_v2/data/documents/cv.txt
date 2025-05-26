@@ -1,0 +1,61 @@
+=== À PROPOS DE MOI ===
+Passionné par la Data Science, je recherche de nouvelles opportunités où je pourrai mettre à profit mon esprit analytique, mon adaptabilité et ma capacité à résoudre des problèmes complexes. Toujours désireux d’apprendre et de me perfectionner, je suis disponible immédiatement, en France ou à l’étranger, pour m’investir avec enthousiasme dans de nouveaux projets.
+
+=== EXPÉRIENCES PROFESSIONNELLES ===
+Ingénieur de recherche | Laboratoire LIRIS, CNRS  
+Avril 2024 - Septembre 2024 | Stage  
+- État de l’art des modèles d’apprentissage automatique combinant Internet des objets (IoT) et Internet du comportement (IoB) pour optimiser la durabilité énergétique dans les espaces résidentiels.  
+- Analyse des données de RECS 2020 de l’EIA, détection d’anomalies, sélection des caractéristiques pertinentes, études de corrélation, clustering...  
+- Rédaction d’un article scientifique détaillé synthétisant la méthodologie utilisée, les résultats et recommandations pour la durabilité énergétique.
+
+Opérateur de saisie de données | OneForma by PacteraEDGE  
+Juin 2021 - Août 2023 | Freelance  
+- Projet JARVIS : Évaluation et annotation de résultats de recherche pour améliorer la pertinence et la précision des moteurs de recherche.
+
+=== FORMATION ===
+Master Data Science | Université Claude Bernard Lyon 1  
+Septembre 2019 - Octobre 2024  
+Savoirs acquis :  
+- Machine Learning, Deep Learning, Intelligence Artificielle  
+- Data Mining, Big Data, Data Visualization  
+- Analyse de graphes, Modèles Graphiques Probabilistes  
+- Intégration et qualité des données, Évaluation des performances, Théorie des jeux  
+
+=== PROJETS PERSONNELS ===
+- Identification de segments de clientèle cible avec le clustering K-Means pour Béton Direct.  
+- Visualisations interactives (D3JS, Tableau) par région et période temporelle.  
+- Clustering et centralités sur graphes avec Gephi.  
+- Détection de fraudes par carte de crédit.  
+- Vectorisation de texte (Word2Vec), exploration de modèles LLM.  
+- Automatisation de pipeline avec FastAPI et Streamlit.  
+- Chatbot de commande avec BERT.  
+- Reconnaissance d’image par CNN.  
+- Dashboards dynamiques avec Power BI.  
+- Reconnaissance faciale avec OpenCV.  
+- Modèles prédictifs avec AWS SageMaker Canvas.  
+- Déploiement d’applications ML avec FastAPI, Docker, GitHub Actions, Render.  
+- Pipeline de reporting automatisé (Python, Docker, PostgreSQL, Power BI).  
+- Chatbot NLP pour répondre aux questions sur mon parcours.
+
+=== COMPÉTENCES TECHNIQUES ===
+**Data Science** : Python, R, Scikit-learn, Numpy, Pandas, Plotly, Matplotlib, Seaborn, OpenCV, Networkx, Pytorch, Tensorflow, Autoencoder, GAN, VAE, CNN, Reinforcement Learning, LLM, NLP  
+**Data Analysis** : Tableau, Microsoft Office, Excel, Power BI, Power Query, PowerPoint, Google, D3JS, Gephi, AWS QuickSight, Evidently  
+**Data Engineering** : Git, Jupyter, Linux, Docker, FastAPI, SQL, MariaDB, MongoDB, PostgreSQL, AWS S3, SageMaker, Athena, Azure, Streamlit, Heroku, Render, Neo4j, Spark, PySpark  
+**Autres** : HTML, CSS, C, C++, C#, PHP, Javascript, Java, Datalog, Scheme, Prolog, Unity
+
+=== LANGUES ===
+- Français : Langue maternelle  
+- Anglais : B2 (TOEIC), C1 (Linguaskill)  
+- Espagnol, Teochew : Intermédiaire  
+
+=== CENTRES D’INTÉRÊT ===
+- Voyage : Europe, Asie, USA  
+- Sport : Football, Volley-ball, Tennis de table  
+- Loisirs : Séries, Jeux vidéo, Lecture, Cuisine, Musique  
+
+=== CONTACT ===
+- Email : pro.tang.kevin@gmail.com  
+- Téléphone : (+33)6 50 34 34 50  
+- Localisation : Lyon/Paris, France — Mobilité possible  
+- LinkedIn : linkedin.com/in/ks-tang  
+- GitHub : github.com/ks-tang  

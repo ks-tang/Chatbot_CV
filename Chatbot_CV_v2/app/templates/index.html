@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot CV - V2</title>
+    <style>
+        body { font-family: Arial; padding: 2em; background: #f4f4f4; }
+        h1 { color: #333; }
+        form, .response { margin-top: 20px; }
+        input[type="text"] { width: 80%; padding: 10px; }
+        input[type="submit"] { padding: 10px 20px; }
+    </style>
+</head>
+<body>
+    <h1>Bienvenue sur mon Chatbot CV V2</h1>
+    <form method="post" action="/ask">
+        <input type="text" name="question" placeholder="Posez votre question..." required />
+        <input type="submit" value="Envoyer" />
+    </form>
+
+    {% if question %}
+        <div class="response">
+            <h2>Question :</h2>
+            <p>{{ question }}</p>
+            <h2>Réponse :</h2>
+            <p>{{ response }}</p>
+        </div>
+    {% endif %}
+
+    <!-- V2/index.html -->
+<a href="/v1">Vers la version 1 (TF-IDF)</a>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Chatbot - CV de Kévin Tang</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <h1>Posez-moi une question</h1>
+
+    <!-- Box pour poser la question -->
+    <form id="chat-form" action="/ask" method="post">
+      <input type="text" name="question" placeholder="Ex : Peux-tu te présenter ?" required>
+      <button type="submit">Envoyer</button>
+    </form>
+
+    {% if question and response %}
+    <!-- Box pour la réponse -->
+      <div class="chat-box">
+        <p><strong>Vous :</strong> {{ question }}</p>
+        <p><strong>Bot :</strong> {{ response }}</p>
+      </div>
+    {% endif %}
+
+  </div>
+
+  <div class="social-links">
+    <a href="https://www.linkedin.com/in/ks-tang/" target="_blank">
+        <img src="/static/linkedin.png" alt="LinkedIn" />
+    </a>
+    <a href="https://github.com/ks-tang" target="_blank">
+        <img src="/static/github.png" alt="GitHub" />
+    </a>
+</div>
+
+<!-- V1/index.html -->
+<a href="/v2">Vers la version 2 (LLM)</a>
+
+</body>
+</html>
