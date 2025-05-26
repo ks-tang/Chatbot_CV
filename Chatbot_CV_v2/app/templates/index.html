@@ -1,32 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Chatbot CV - V2</title>
-    <style>
-        body { font-family: Arial; padding: 2em; background: #f4f4f4; }
-        h1 { color: #333; }
-        form, .response { margin-top: 20px; }
-        input[type="text"] { width: 80%; padding: 10px; }
-        input[type="submit"] { padding: 10px 20px; }
-    </style>
+    <meta charset="UTF-8">
+    <title>Chatbot CV V2</title>
+    <link rel="stylesheet" href="/v2/static/style.css">
 </head>
 <body>
-    <h1>Bienvenue sur mon Chatbot CV V2</h1>
-    <form method="post" action="/ask">
-        <input type="text" name="question" placeholder="Posez votre question..." required />
-        <input type="submit" value="Envoyer" />
+    <h1>Chatbot CV - Version 2</h1>
+
+    <form method="post">
+        <input type="text" name="question" placeholder="Posez votre question" required>
+        <button type="submit">Envoyer</button>
     </form>
 
     {% if question %}
-        <div class="response">
-            <h2>Question :</h2>
-            <p>{{ question }}</p>
-            <h2>Réponse :</h2>
-            <p>{{ response }}</p>
-        </div>
+        <p><strong>Vous :</strong> {{ question }}</p>
+    {% endif %}
+    {% if response %}
+        <p><strong>Chatbot :</strong> {{ response }}</p>
     {% endif %}
 
-    <!-- V2/index.html -->
-<a href="/v1">Vers la version 1 (TF-IDF)</a>
+    <a href="/v1">↩ Retour à la version 1</a>
 </body>
 </html>
