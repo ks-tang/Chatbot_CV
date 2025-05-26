@@ -15,9 +15,10 @@ BASE_DIR = os.path.dirname(__file__)  # /Chatbot_CV_v1/app
 ROOT_DIR = os.path.dirname(BASE_DIR)  # /Chatbot_CV_v1
 
 # 📁 Static files (optionnel mais nécessaire si dossier vide)
-static_path = os.path.join(BASE_DIR, "static")
-if os.path.isdir(static_path):
-    app.mount("/static", StaticFiles(directory=static_path), name="static")
+static_path_v1 = os.path.join(os.path.dirname(__file__), "Chatbot_CV_v1", "app", "static")
+# static_path = os.path.join(BASE_DIR, "static")
+if os.path.isdir(static_path_v1):
+    app.mount("/static_v1", StaticFiles(directory=static_path_v1), name="static_v1")
 
 # 📁 Templates
 templates = Jinja2Templates(directory=os.path.join(BASE_DIR, "templates"))
