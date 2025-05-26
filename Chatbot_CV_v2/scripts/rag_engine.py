@@ -1,7 +1,7 @@
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain.llms import Ollama
-from langchain.chains import RetrievalQA
+from langchain_community.llms import Ollama
+from langchain_community.chains import RetrievalQA
 
 def load_rag_chain():
     # Charger l'index vectoriel
