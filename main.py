@@ -29,7 +29,7 @@ async def root():
         <body>
             <h1>Bienvenue sur le Chatbot CV</h1>
             <p><a href="/v1">➡️ Accéder à la version 1</a></p>
-            <p><a href="/v2">➡️ Accéder à la version 2</a></p>
+            <p><a href="/v2">➡️ Accéder à la version 2 (en construction)</a></p>
         </body>
         </html>
     """)
