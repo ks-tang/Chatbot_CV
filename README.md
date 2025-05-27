@@ -47,3 +47,4 @@ Déploiement cloud : Render
 
 ---
 
+Le chatbot est disponible ici (si actif) : https://chatbot-cv.onrender.com/
