@@ -11,17 +11,18 @@ from fastapi.templating import Jinja2Templates
 app = FastAPI()
 
 # 🔧 Base paths
-BASE_DIR = os.path.dirname(__file__)  # /Chatbot_CV_v1/app
+BASE_DIR = os.path.dirname(__file__)
 ROOT_DIR = os.path.dirname(BASE_DIR)  # /Chatbot_CV_v1
 
-# 📁 Static files (optionnel mais nécessaire si dossier vide)
-static_path_v1 = os.path.join(os.path.dirname(__file__), "Chatbot_CV_v1", "app", "static")
-# static_path = os.path.join(BASE_DIR, "static")
-if os.path.isdir(static_path_v1):
-    app.mount("/static_v1", StaticFiles(directory=static_path_v1), name="static_v1")
+# Chemins vers static et templates
+static_path = os.path.join(BASE_DIR, "static")
+templates_path = os.path.join(BASE_DIR, "templates")
 
-# 📁 Templates
-templates = Jinja2Templates(directory=os.path.join(BASE_DIR, "templates"))
+# Montage du dossier static à l’URL "/static"
+app.mount("/static", StaticFiles(directory=static_path), name="static")
+
+# Initialisation des templates
+templates = Jinja2Templates(directory=templates_path)
 
 # 📄 Chargement des données
 questions_path = os.path.join(ROOT_DIR, "data", "questions.csv")
