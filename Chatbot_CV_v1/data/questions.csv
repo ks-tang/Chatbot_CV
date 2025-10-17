@@ -131,3 +131,136 @@ Tu joues à quel sport ?,sport
 Tu pratiques le volley ou le tennis de table ?,sport
 Tu fais du sport en compétition ?,sport
 C’est quoi ton lien avec le sport ?,sport
+
+Can you introduce yourself?,presentation
+How would you describe yourself?,presentation
+Who are you?,presentation
+Tell me about yourself,presentation
+Can you introduce yourself?,presentation
+What is your profile?,presentation
+Tell me more about yourself,presentation
+Give a quick introduction,presentation
+What is your background in brief?,presentation
+What do you do for a living?,presentation
+What is your background?,formation
+What is your education?,formation
+What did you study?,formation
+What degree do you have?,formation
+What is your academic background?,formation
+Tell me about your education,formation
+Which school did you come from?,formation
+What did you study?,formation
+What did you study?,formation
+Tell me about your academic background,formation
+What projects have you completed?,projets
+What have you worked on?,projets
+Tell me about one of your projects,projets
+You have already done What projects?, projets
+What are your favorite projects?, projets
+What have you developed?, projets
+What have you built?, projets
+Have you done any concrete projects?, projets
+Give an example of a completed project?, projets
+Can you tell me about a technical project?, projets
+What is your technical stack?, skills
+What tools are you proficient in?, skills
+What do you code in?, skills
+What technologies are you familiar with?, skills
+What is your stack?, skills
+What languages ​​do you use?, skills
+What are your favorite tools?, skills
+What technical skills do you have?, skills
+What frameworks do you work with?, skills
+What are you used to using?, skills
+What type of position are you looking for?, poste
+What job are you looking for?, poste
+What career are you aiming for?, poste
+Are you looking for What type of position?, poste
+What do you want to do?, poste
+What role are you looking for?, poste
+What job do you want?, poste
+What do you want to work in?, poste
+In which field do you want to work?, poste
+What do you want to apply for?, poste
+What type of position are you looking for?, poste
+What job are you looking for?, poste
+What job are you aiming for?, poste
+What type of position are you looking for?, poste
+What do you want to do?, poste
+What role are you looking for?, poste
+What job do you want?, poste
+What do you want to work in?, poste
+In which field do you want to work?, poste
+What do you want to apply for?, poste
+Where are you based?, lieu
+Where do you live?, lieu
+In which city do you live?, lieu
+Where are you located?, lieu
+Are you mobile?, lieu
+Where can you work?, lieu
+Do you have preferences geographical?, lieu
+Where can you work?, lieu
+Which region are you based in?, lieu
+Where do you currently live?, lieu
+Do you speak English?, langue
+What is your level of English?, langue
+Are you comfortable in English?, langue
+Do you understand English?, langue
+Can you speak English?, langue
+Is your English good?, langue
+Do you write well in English?, langue
+Have you ever worked in English?, langue
+What is your TOEIC score?, langue
+Your Linguaskill level?, langue
+What languages ​​do you speak?, langue
+What languages ​​are you comfortable with?, langue
+Can you work in a team?, équipe
+Do you know how to work in a team?, équipe
+Do you prefer working alone or in a group?, équipe
+Do you collaborate easily?, équipe
+Have you ever worked in a team?, équipe
+Are you used to collaborating ?,équipe
+Are you good at communicating?,équipe
+Are you a team player?,équipe
+Are you comfortable working in a team?,équipe
+Have you ever used Git in a team?,équipe
+Why are you interested in data?,motivation
+Why did you choose data?,motivation
+What motivates you in this field?,motivation
+Why data science?,motivation
+What do you like about data?,motivation
+Why this passion for data?,motivation
+Where does your interest in data come from?,motivation
+Why this career choice?,motivation
+What do you want to do with data?,motivation
+What attracts you to this sector?,motivation
+What do you do outside of work?,hobbies
+What are your interests?,hobbies
+Do you have any passions?,hobbies
+What do you like to do in your free time ?, hobbies
+What do you do in your free time?, hobbies
+Do you have any hobbies?, hobbies
+Do you have any hobbies?, hobbies
+What do you do to relax?, hobbies
+What are you passionate about outside of data?, hobbies
+How do you spend your weekends?, hobbies
+What are your qualities?, softskills
+What do people say about you at work?,softskills
+How would you describe yourself?, softskills
+What are your soft skills?, softskills
+How do you work in a team?, softskills
+What is your work style?, softskills
+What makes you good at what you do?, softskills
+Are you more structured or an improviser?, softskills
+Are you independent?,softskills
+Are you adaptable?, softskills
+Do you play sports?, sport
+Do you practice physical activity ?,sport
+Do you like sports?,sport
+Are you a fan of a team?,sport
+What is your favorite soccer club?,sport
+Do you follow soccer?,sport
+What sport do you play?,sport
+Do you play volleyball or table tennis?,sport
+Do you play competitive sports?,sport
+What is your connection with sports?,sport
